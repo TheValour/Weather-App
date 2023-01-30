@@ -1,0 +1,116 @@
+body {
+    padding: 0;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 120%;
+}
+
+
+/* navation bar--------------- */
+#nav {
+    background: rgba(13, 28, 117, 1.0);
+    background: -webkit-linear-gradient(top left, rgba(13, 28, 117, 1.0), rgba(146, 115, 185, 1.0));
+    background: -moz-linear-gradient(top left, rgba(13, 28, 117, 1.0), rgba(146, 115, 185, 1.0));
+    background: linear-gradient(to bottom right, rgba(13, 28, 117, 1.0), rgba(146, 115, 185, 1.0));
+    padding: 2vh;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+li {
+    display: inline;
+    color: whitesmoke;
+}
+#home {
+    float: right;
+    margin-left: 4vw;
+}
+.bi-cloud-sun-fill {
+    color: rgb(221 221 105);
+    font-size: larger;
+    margin-right: 1vw;
+}
+
+
+/* main container-------------- */
+#container {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to bottom right, rgba(220, 224, 248, 1.0), rgba(186, 135, 251, 1.0));
+    padding: 0;
+}
+.card {
+    background: rgba(13, 28, 117, 1.0);
+    background: -webkit-linear-gradient(top left, rgba(13, 28, 117, 1.0), rgba(146, 115, 185, 1.0));
+    background: -moz-linear-gradient(top left, rgba(13, 28, 117, 1.0), rgba(146, 115, 185, 1.0));
+    background: linear-gradient(to bottom right, rgba(13, 28, 117, 1.0), rgba(146, 115, 185, 1.0));
+    color: white;
+    padding: 2em;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 420px;
+    margin: 2em;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 44px;
+    width: 44px;
+    outline: none;
+    background: #2423232b;
+    color: white;
+    cursor: pointer;
+}
+
+input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 10px;
+    background: #3736362b;
+    color: white;
+    font-family: inherit;
+    font-size: 105%;
+    width: calc(100% - 100px);
+}
+
+button:hover {
+    background: #0000006b;
+}
+
+h1.temp {
+    margin: 0;
+    margin-bottom: 0.4em;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.description {
+    text-transform: capitalize;
+    margin-left: 8px;
+}
+
+h1 {
+    font-size: 6vh;
+}
+#pic{
+    width: 7vh;
+    height: 7vh;
+    background: #5661ba;
+    margin: 1vw;
+    padding: auto;
+    border-radius: 50%;
+}

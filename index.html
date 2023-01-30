@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="nav">
+        <ul>
+            <b><i class="bi bi-cloud-sun-fill"></i><li>Weathering App</li></b>
+            <li id="home">About Us</li>
+            <li id="home">Home</li>
+        </ul>
+    </div>
+    <div id="container">
+        <div class="card">
+            <div class="search">
+                <input type="text" class="search-bar" placeholder="Enter the name">
+                <button>
+                    <i class="bi bi-search" id="search"></i>
+                </button>
+            </div>
+
+            <div class="weather loading">
+                <br>
+                <h2 class="city">Weather in Dehradun</h2>
+                <div class="flex">
+                    <div id="pic"><img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon" /></div>
+                    <h2>
+                        <div class="des">Cloudy</div>
+                    </h2>
+                </div>
+                <h1 class="temp">29°C</h1>
+                <div class="humidity">Humidity: 55%</div>
+                <div class="pressure">Pressure: 760 atm</div>
+                <div class="wind">Wind speed: 8.2 km/h</div>
+                <br>
+                <div class="long">Longitude: 6.2</div>
+                <div class="lat">Latitude: 6.2 </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js" defer></script>
+</body>
+
+</html>
