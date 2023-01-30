@@ -1,7 +1,7 @@
 const search = document.querySelector(".search-bar");
 
 const Weather = {
-    apiKey: "aaa3187e4cb897e454c902b65bd7456d",
+    apiKey: "write your API key",
 
     fetchWeather: function (city) {
         fetch(
