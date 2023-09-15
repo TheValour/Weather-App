@@ -1,9 +1,6 @@
 # Weather App
-
 A simple weather app that allows users to check the weather forecast for a specific location. This app fetches weather data from a third-party API and displays it in a user-friendly interface.
-
-![Weather App Screenshot](![image](https://github.com/TheValour/Weather-App/assets/108991640/d3751bfb-cb31-42a9-a713-a3d4e6037996))
-** ((https://thevalour.github.io/Weather-App/))**
+## (https://thevalour.github.io/Weather-App/)
 ## Features
 
 - **Current Weather:** View the current weather conditions for a selected location, including temperature, humidity, wind speed, and description.
@@ -27,7 +24,7 @@ A simple weather app that allows users to check the weather forecast for a speci
 2. Navigate to the project directory:
 
    ```bash
-   cd weather-app
+   cd Weather-App
    ```
 
 3. Open the `index.html` file in your web browser or deploy the project to a web server.
@@ -73,9 +70,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 
 - Thanks to [Weather API](https://www.example.com/weather-api) for providing the weather data.
-
-## Contact
-
-If you have any questions or suggestions, feel free to contact us at [your@email.com](mailto:your@email.com).
-
 ---
