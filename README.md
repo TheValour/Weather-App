@@ -1,6 +1,9 @@
 # Weather App
 A simple weather app that allows users to check the weather forecast for a specific location. This app fetches weather data from a third-party API and displays it in a user-friendly interface.
-## (https://thevalour.github.io/Weather-App/)
+
+![image](https://github.com/TheValour/Weather-App/assets/108991640/7115fc60-2db0-45f8-82a3-a84967b1e099)
+
+## https://thevalour.github.io/Weather-App/
 ## Features
 
 - **Current Weather:** View the current weather conditions for a selected location, including temperature, humidity, wind speed, and description.
@@ -12,13 +15,14 @@ A simple weather app that allows users to check the weather forecast for a speci
 - HTML
 - CSS
 - JavaScript
+- RestApi
 
 ## Installation
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/TheWeather/Weather-App.git
+   git clone https://github.com/TheValour/Weather-App.git
    ```
 
 2. Navigate to the project directory:
@@ -69,5 +73,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-- Thanks to [Weather API](https://www.example.com/weather-api) for providing the weather data.
+- Thanks to [Weather API](https://openweathermap.org/api) for providing the weather data.
 ---
